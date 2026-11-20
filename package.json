@@ -1,0 +1,16 @@
+{
+  "name": "car-rental-system",
+  "version": "1.0.0",
+  "description": "AutoClip Car Rental Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node -e \"require('./seed').seedIfEmpty()\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
